@@ -5,6 +5,15 @@ public class Student {
 
     private String studentID;
     private String studentName;
+    private String studentAddress;
+
+    public String getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(String studentAddress) {
+        this.studentAddress = studentAddress;
+    }
 
     public Student(String studenntID, String studentName) {
         this.studentID = studentID;
